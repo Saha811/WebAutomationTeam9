@@ -1,6 +1,6 @@
 package citybank;
 
-import TestBase.mainClass;
+import Base.mainClass;
 import org.testng.annotations.Test;
 
 public class test1 extends mainClass {

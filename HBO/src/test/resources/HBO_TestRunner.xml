@@ -4,15 +4,20 @@
 <suite name="HBO Automation Script " parallel="false">
 
     <parameter name="url" value="https://www.hbo.com"/>
-    <parameter name="browser_name" value="Chrome"/>
-    <parameter name="os" value="mac"/>
-
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="Sierra"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="53.0"/>
     <test name = "HBO test">
 
         <classes>
-        <class name="TestBase.SignUp"/>
-            <!--//<class name="TestBase.searchItem"/>-->
-       <!-- <class name="TestBase.PlayAvideo"/>-->
+        <!--<class name="Base.dropDown"/>
+        <class name="Clicks.ableToChooseBoxing"/>
+        <class name="Base.searchItem"/>
+        <class name="Base.PlayAvideo"/>-->
+            <class name="Clicks.TopOptions"/>
 
         </classes>
     </test>

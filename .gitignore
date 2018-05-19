@@ -14,7 +14,7 @@
 .DS_Store
 
 ### Maven template
-log/
+login/
 target/
 test-output/
 pom.xml.tag

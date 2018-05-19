@@ -3,14 +3,18 @@
 
 <suite name="cityBank Automation Script " parallel="false">
 
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="Sierra"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="53.0"/>
     <parameter name="url" value="https://online.citi.com/US/login.do"/>
-    <parameter name="browser_name" value="Chrome"/>
-    <parameter name="os" value="mac"/>
 
     <test name = "test CityBank">
 
         <classes>
-       <class name="citybank.test1"/>
+       <class name="testGoogleSheet.TestGoogleSheet"/>
 
         </classes>
     </test>

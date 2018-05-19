@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="RestAPI Automation Script " parallel="false">
+
+    <parameter name="url" value="http://http://localhost:8080"/>
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="Sierra"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="53.0"/>
+    <test name = "Jira test">
+
+        <classes>
+            <class name="Jira_Test.API_Jira"/>
+        </classes>
+    </test>
+
+</suite>

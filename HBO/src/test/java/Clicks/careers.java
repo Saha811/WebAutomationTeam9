@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class careers extends CommonAPI {
 @Test
     public void clickcareers(){
-        driver.findElement(By.xpath("/html//main/div[11]/div/div//ul[@class='modules/FooterLinks--links modules/FooterLinks--topLinks']//a[@href='https://hbocareers.com/']")).click();
+        driver.findElement(By.xpath("/html/body/main/div[12]/div/div/footer/div[2]/div/ul[1]/li[4]/a")).click();
     }
 
 }

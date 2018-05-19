@@ -1,6 +1,5 @@
 package citybank;
 
-import base.CommonAPI;
 import org.testng.annotations.Test;
 
 public class testDebitCards {
